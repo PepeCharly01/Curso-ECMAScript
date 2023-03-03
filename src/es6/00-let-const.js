@@ -15,9 +15,9 @@ console.log(animal);
 
 const frutas = () => {
     if (true) {
-        var fruta1 = 'Manzana';
-        let fruta2 = 'Banana';
-        const fruta3 = 'Pera';
+        var fruta1 = 'Manzana'; // Global scope
+        let fruta2 = 'Banana'; // Block scope
+        const fruta3 = 'Pera'; // Block scope
         console.log(fruta2);
         console.log(fruta3);
     }
