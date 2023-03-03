@@ -44,3 +44,24 @@ Microsoft en 1995 lanzó Internet Explorer, en la guerra nacieron tecnologias co
 - Stage3: Candidate (se elige el candidato, vamos a tener una propuesta que va ayudar a mejorar el lenguaje.)
 
 - Stage4: Finished (va a ser desplegada en la version normalmente en JUNIO)
+
+## ES6 (2015)
+- A partir de esta versión se hace referencia a “El gran cambio”
+
+### let & const
+- Nuevas palabras reservadas para guardar variables. Antes solo existía var.
+- Let permite la reasignación de valores de una variable, con la particularidad de que solo tiene un alcance de bloque, mientras que var tiene un alcance global.
+- Const, Sin embargo su valor no puede ser reasignado y también tiene alcance de bloque.
+
+Todo lo que sea un bloque es lo que está entre llaves {}
+
+### Arrow Functions
+Es una alternativa compacta para declarar una function.
+```js
+const nombreFuncion (argumento) => {
+    bloque de codigo;
+}
+
+const nombreFuncion = num => num * num;
+```
+
