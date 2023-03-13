@@ -64,4 +64,10 @@ const nombreFuncion (argumento) => {
 
 const nombreFuncion = num => num * num;
 ```
+### Para aceptar modulos en javascript debes.
+agregar en tu archivo .json despues de la licencia se le pone "," y abajo
+```json
+"type":"module"
+```
+
 
