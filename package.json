@@ -10,11 +10,17 @@
     "type": "git",
     "url": "git+https://github.com/PepeCharly01/Curso-ECMAScript.git"
   },
-  "keywords": ["javascript", "ECMAScript6"],
+  "keywords": [
+    "javascript",
+    "ECMAScript6"
+  ],
   "author": "Carlos Espinosa <jc.espinosa2@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/PepeCharly01/Curso-ECMAScript/issues"
   },
-  "homepage": "https://github.com/PepeCharly01/Curso-ECMAScript#readme"
+  "homepage": "https://github.com/PepeCharly01/Curso-ECMAScript#readme",
+  "dependencies": {
+    "node-fetch": "^3.3.1"
+  }
 }
